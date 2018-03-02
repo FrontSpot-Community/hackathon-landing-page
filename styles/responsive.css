@@ -1,0 +1,151 @@
+@media screen and (max-width: 960px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        margin: 0;
+        width: 100%;
+    }
+
+    .header-line-bold,
+    .header-line-bold2,
+    .brackets,
+    .brackets2,
+    .slashes,
+    .logo,
+    .logo-img,
+    .header-line,
+    .header-line-small,
+    .header-circle-small,
+    .brackets3,
+    .triangle1,
+    .idea-circle,
+    .idea-line,
+    .idea-triangles,
+    .ttable-circle,
+    .ttable-line,
+    .ttable-triangle,
+    .partners-circle,
+    .partners-triangle1,
+    .partners-triangle2,
+    .partners-brackets,
+    .circle,
+    .footer-line,
+    .footer-dashed-line,
+    .footer-brackets,
+    .footer-triangles
+     {
+        display: none;
+    }
+
+    .idea-header,
+    .ttable-header,
+    .partners-header {
+        width: 309px;
+        font-size: 36px;
+    }
+
+    .idea-header::before,
+    .idea-header::after,
+    .ttable-header::before,
+    .ttable-header::after,
+    .partners-header::before,
+    .partners-header::after {
+        width: 309px;
+}
+    
+    .header-container,
+    .idea-container,
+    .ttable-container,
+    .partners-container,
+    footer {
+        display: block;
+        padding: 0 45px 0 45px;
+    }
+
+    .header-container {
+        padding-bottom: 180px;
+    }
+
+    .header-wrapper {
+        display: block;
+        padding-top: 385px;
+    }
+
+    header {
+        background: url('../images/part1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+
+    .header-text h1 {
+        letter-spacing: 0;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .register-button {
+        position: relative;
+        top: 760px;
+    }
+
+
+    .idea-container {
+        background: url('../images/part2.jpg');
+        background-repeat: no-repeat;
+        font-size: 16px;
+        line-height: 32px;
+        padding-top: 60px;
+    }
+
+    .idea-header {
+        margin: 0 0 40px;
+    }
+
+    .collapsible {
+        display: none;
+    }
+
+    .ttable-container {
+        background: url('../images/part3.jpg');
+        background-repeat: no-repeat;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .partners-gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    footer h1 {
+        letter-spacing: 0;
+    }
+    footer form
+    {
+       display: block;
+       background-color: transparent;
+       height: auto;
+       width: 100%;
+       font-size: 16px;
+   }
+
+   input {
+       width: 100%;
+       font-size: 16px;
+   }
+   .textarea,
+   textarea {
+       width: 100%;
+   }
+
+
+}
