@@ -1,0 +1,27 @@
+@keyframes logoCircle {
+  from { left: -90%; top: 20% }
+  to   { left: -53%; top: 45% }
+}
+@keyframes logoCircleDashed {
+  from { left: -55%; top: 90% }
+  to   { left: -30%; top: 45% }
+}
+@keyframes headerOval {
+  0% {
+    left: -420px; 
+  }
+  50% {
+    left: -180px; 
+  }
+  100% {
+    left: -230px; 
+  }
+}
+@keyframes headerCircleSmall {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 700px; 
+  }
+}
