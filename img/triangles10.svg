@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="265px" viewBox="0 0 480 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>triangles 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="triangles-1">
+            <g id="triangles" transform="translate(58.000000, 40.000000)">
+                <polygon id="Triangle" stroke="#FFFFFF" stroke-width="2" transform="translate(21.823008, 101.419284) scale(1, -1) rotate(-30.000000) translate(-21.823008, -101.419284) " points="21.8230084 87.3696014 38.9104601 115.468966 4.73555679 115.468966"></polygon>
+                <polygon id="Triangle-2" stroke="#FFFFFF" stroke-width="8" points="235.5 0 255 32 216 32"></polygon>
+                <polygon id="Triangle-3" fill="#FFFFFF" points="343.5 96 365 144 322 144"></polygon>
+                <polygon id="Triangle-2" stroke="#FFFFFF" stroke-width="8" transform="translate(198.154801, 164.755116) rotate(-16.000000) translate(-198.154801, -164.755116) " points="198.154801 148.755116 217.654801 180.755116 178.654801 180.755116"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

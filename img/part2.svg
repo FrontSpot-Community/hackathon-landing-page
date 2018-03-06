@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="412px" height="503px" viewBox="0 0 412 503" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>part 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing_page_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-22.000000, -820.000000)">
+        <g id="part-2" transform="translate(24.000000, 822.000000)">
+            <ellipse id="Oval-2" stroke="#ED2478" stroke-width="3" opacity="0.3" stroke-dasharray="20" cx="204" cy="296.5" rx="204" ry="202.5"></ellipse>
+            <ellipse id="Oval-1" stroke="#ED2478" stroke-width="3" cx="315" cy="95.5" rx="93" ry="95.5"></ellipse>
+            <g id="triangles" transform="translate(222.000000, 128.000000)">
+                <polygon id="Triangle" stroke="#783C91" stroke-width="2" transform="translate(17.234581, 33.954164) scale(1, -1) rotate(-30.000000) translate(-17.234581, -33.954164) " points="17.234581 23.0405714 30.7292864 44.8677567 3.73987562 44.8677567"></polygon>
+                <polygon id="Triangle-2" stroke="#ED2478" stroke-width="8" points="138.6 0 154 24.8571429 123.2 24.8571429"></polygon>
+                <polygon id="Triangle-3" fill="#FAE923" points="93.5846154 49.7142857 110.564103 87 76.6051282 87"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

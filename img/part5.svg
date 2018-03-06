@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="800px" viewBox="0 0 480 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>part 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.65676344%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8F55A2" offset="0%"></stop>
+            <stop stop-color="#72368D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing_page_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -3200.000000)">
+        <g id="part-5" transform="translate(0.000000, 3200.000000)">
+            <rect id="bg" fill="url(#linearGradient-1)" x="0" y="0" width="480" height="800"></rect>
+            <ellipse id="Oval-2-Copy" stroke="#FE54EF" stroke-width="3" opacity="0.3" stroke-dasharray="20" cx="165" cy="95.5" rx="54" ry="52.5"></ellipse>
+            <g id="{}" opacity="0.3" transform="translate(246.000000, 124.000000)" fill="#FFFFFF" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold">
+                <text>
+                    <tspan x="95" y="41">{}</tspan>
+                </text>
+                <text>
+                    <tspan x="49" y="54">{}</tspan>
+                </text>
+                <text>
+                    <tspan x="0" y="17">{}</tspan>
+                </text>
+            </g>
+            <path d="M104,36 L165.300888,129.044969" id="Line-1" stroke="#FFFFFF" stroke-width="3" opacity="0.3" stroke-linecap="square" stroke-dasharray="20"></path>
+            <ellipse id="Oval-1" stroke="#FAE923" stroke-width="4" opacity="0.3" cx="265" cy="117.5" rx="93" ry="95.5"></ellipse>
+        </g>
+    </g>
+</svg>

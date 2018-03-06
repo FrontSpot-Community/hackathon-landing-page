@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="355px" height="370px" viewBox="0 0 355 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>part 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing_page_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-42.000000, -2418.000000)">
+        <g id="part-4" transform="translate(45.000000, 2422.000000)">
+            <polygon id="Triangle-2" stroke="#814698" stroke-width="3" points="110 0 220 206 0 206"></polygon>
+            <ellipse id="Oval-1" stroke="#FE54EF" stroke-width="3" opacity="0.3" stroke-dasharray="20" cx="175" cy="185.5" rx="175" ry="178.5"></ellipse>
+            <polygon id="Triangle-1" fill="#582C7B" points="57 193 70 219 44 219"></polygon>
+            <g id="&lt;&gt;" transform="translate(200.000000, 127.000000)" fill="#FE54EF" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold">
+                <text>
+                    <tspan x="0" y="26">&lt;&gt;</tspan>
+                </text>
+                <text>
+                    <tspan x="44" y="52">&lt;&gt;</tspan>
+                </text>
+                <text>
+                    <tspan x="10" y="72">&lt;&gt;</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="366px" height="627px" viewBox="0 0 366 627" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>part 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing_page_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-71.000000, -1620.000000)">
+        <g id="part-3" transform="translate(73.000000, 1622.000000)">
+            <path d="M302.5,0.5 L61.5,257.5" id="Line-1" stroke="#582C7B" stroke-width="3" stroke-linecap="square"></path>
+            <circle id="Oval-2" stroke="#582C7B" stroke-width="3" stroke-dasharray="20" cx="167" cy="115" r="115"></circle>
+            <text id="///////////////" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#ED2478">
+                <tspan x="164" y="164">///////////////</tspan>
+            </text>
+            <ellipse id="Oval-1" stroke="#FAE923" stroke-width="3" opacity="0.3" cx="181" cy="443.5" rx="181" ry="179.5"></ellipse>
+        </g>
+    </g>
+</svg>
