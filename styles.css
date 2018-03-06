@@ -137,7 +137,6 @@ section.first {
   left: 53%;
   transform: translateX(-50%);
   bottom: 8%;
-  animation: logoApacity 1s;
 }
 .logo-circle {
   height: 100%;
