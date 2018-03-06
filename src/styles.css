@@ -14,7 +14,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -34,7 +33,6 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
 	content: none;
 }
 table {
@@ -99,10 +97,8 @@ section.first {
 }
 
 .register-button {
-  background:  #ED2478;
   width: 20.5vw;
   font-size: calc(100vw / 80);
-  line-height: 40px;
   color: #ffffff;
   background-color: #ED2478;
   position: absolute;
@@ -266,7 +262,7 @@ section.first {
   font-weight: 800;
   letter-spacing: 6px;
   line-height: 82px;
-  text-shadow: 0px 0px 34px #5b2b71;
+  text-shadow: 0 0 34px #5b2b71;
 }
 
 .header-text p {
@@ -353,7 +349,7 @@ section.first {
     width: 23px;
     height: 40px;
     top: 40px;
-    left: 0px;
+    left: 0;
 }
 
 .section-title {
@@ -416,7 +412,8 @@ section.first {
   padding-top: 5vw;
 }
 
-.section-text p {
+.section-text p,
+.section-text .paragraph {
     margin-bottom: 60px;
 }
 
@@ -482,8 +479,6 @@ section.first {
 }
 
 .ttable-line {
-  border-color: #582C7B;
-  left: 10vw;
   border-color: #582C7B;
   top: 36vw;
   left: 11vw;
@@ -766,7 +761,7 @@ label.error input {
 
 .error-text {
 	color: #DC507D;
-	font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 	line-height: 19px;
 	opacity: 0;
@@ -998,7 +993,8 @@ label.error input {
 		margin: 5vw 0;
 	}
 
-	.section-text p {
+    .section-text p,
+    .section-text .paragraph {
 		margin-bottom: 8vw;
 	}
 
@@ -1011,7 +1007,7 @@ label.error input {
 	}
 
 	.succsessful-reg {
-		font-style: 16px;
+		font-size: 16px;
 	}
 
 	.error-text {
