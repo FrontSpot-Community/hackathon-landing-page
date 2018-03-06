@@ -1,4 +1,4 @@
-import './styles.css';
+require('./styles.css');
 
 let registerButton = document.getElementById('register');
 let formElement = document.getElementById('regForm');
