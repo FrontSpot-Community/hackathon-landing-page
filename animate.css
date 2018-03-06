@@ -1,0 +1,59 @@
+@keyframes headerCircle {
+  0% { 
+    left: 10vw;
+    top: 4vh;
+  }
+  100% { 
+    left: 7.4vw;
+    top: 5vh;
+  }
+}
+@keyframes headerCircleDashed {
+  from { 
+    left: 7vw;
+    top: -1vh;
+  }
+  to   { 
+    left: 11vw;
+    top: 1vh;
+  }
+}
+@keyframes logoCircle {
+  0% {
+    left: -20px; 
+  }
+  50% {
+    left: 40px; 
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes headerCircleSmall {
+  0% {
+    transform: translateY(-41vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes headerLine1 {
+  0% {
+    top: 0.5vw;
+    left: 3.2vw;
+  }
+  100% {
+    top: -5.5vw;
+    left: -3.2vw;
+  }
+}
+@keyframes headerLine2 {
+  0% {
+    top: -7vh;
+    left: -9.9vw;
+  }
+  100% {
+    top: -4vh;
+    left: -6.9vw;
+  }
+}

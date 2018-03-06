@@ -137,12 +137,14 @@ section.first {
   left: 53%;
   transform: translateX(-50%);
   bottom: 8%;
+  animation: logoApacity 1s;
 }
 .logo-circle {
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  animation: logoCircle 1s ease
 }
 
 .header-circle {
@@ -153,6 +155,7 @@ section.first {
   border: 3px solid #fff;
   border-radius: 50%;
   position: absolute;
+  animation: headerCircle 1s;
 }
 
 .header-circle-dashed {
@@ -165,6 +168,7 @@ section.first {
   border-radius: 50%;
   position: absolute;
   transform-origin: 0 0;
+  animation: headerCircleDashed 1s ease;
 }
 
 .header-circle-small {
@@ -175,6 +179,7 @@ section.first {
     width: 13vw;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
+    animation: headerCircleSmall 1s cubic-bezier(.32,.04,.12,1.52);
 }
 
 .header-line {
@@ -241,6 +246,7 @@ section.first {
   left: -3.2vw;
   z-index: 100;
   width: 19vw;
+  animation: headerLine1 1s cubic-bezier(.32,.04,.12,1.52);
 }
 
 .header-line-bold2 {
@@ -250,6 +256,7 @@ section.first {
   z-index: 0;
   width: 19vw;
   transform: rotate(-6.8deg);
+  animation: headerLine2 1s cubic-bezier(.32,.04,.12,1.52);
 }
 
 .header-text {
