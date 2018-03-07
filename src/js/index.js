@@ -111,3 +111,11 @@ document.querySelector('#cta').addEventListener('click', function (e) {
         }
     }
 });
+
+let button = document.querySelector('.button');
+button.addEventListener('click', function () {
+    button.remove();
+    let toggle = document.querySelector('.toggle');
+    toggle.style.height = document.querySelector('.content').clientHeight + 'px';
+    toggle.classList.add('expand');
+});
