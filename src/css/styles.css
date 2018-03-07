@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -664,8 +668,14 @@ section.first {
     animation: placeholder 0.3s forwards;
     transition: color 0.3s;
 }
-.reg-form label.error .placeholder {
-    color: #DC507D;
+.reg-form label .placeholder {
+    display: none;
+    position: absolute;
+    top: -18px;
+    left: 0;
+    color: #ffffff;
+    animation: placeholder 0.3s forwards;
+    transition: color 0.3s;
 }
 
 .reg-form textarea {
@@ -842,7 +852,7 @@ label.error input {
     visibility: visible;
 }
 
-.succsessful-reg {
+.successful-reg {
     position: absolute;
     box-sizing: border-box;
     display: none;
@@ -856,12 +866,12 @@ label.error input {
     transform: translateY(-50%);
 }
 
-.succsessful-reg p {
+.successful-reg p {
     margin-bottom: 30px;
     line-height: 40px;
 }
 
-.success .succsessful-reg {
+.success .successful-reg {
     display: block;
 }
 
@@ -1055,11 +1065,34 @@ label.error input {
         min-height: auto;
     }
 
-    .succsessful-reg {
+    .successful-reg {
         font-size: 16px;
     }
 
     .error-text {
         font-size: 13px;
     }
+}
+
+
+.toggle {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s, height .3s;
+    _display: none;
+}
+
+.expand {
+    opacity: 1;
+}
+
+.expand .button {
+    margin-bottom: 10px;
+    padding: 16px;
+    color: #75398F;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    box-shadow: 0 0 0 3px #75398F;
 }
