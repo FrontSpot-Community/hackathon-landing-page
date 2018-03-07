@@ -1,59 +1,102 @@
-@keyframes headerCircle {
-  0% { 
-    left: 10vw;
-    top: 4vh;
-  }
-  100% { 
-    left: 7.4vw;
-    top: 5vh;
-  }
+@keyframes circleRotate {
+    0% {
+        transform: rotate(0deg) scale(3.8);
+    }
+    100% {
+        transform: rotate(360deg) scale(3.8);
+    }
 }
-@keyframes headerCircleDashed {
-  from { 
-    left: 7vw;
-    top: -1vh;
-  }
-  to   { 
-    left: 11vw;
-    top: 1vh;
-  }
+@keyframes headerLine {
+    0% {
+        transform: translate(-5vw, -3vh) rotate(-37deg) scaleY(0.3);
+    }
+    50% {
+        transform: translate(3vw, 1vh) rotate(-37deg) scaleY(0.3);
+    }
+    100% {
+        transform: translate(-5vw, -3vh) rotate(-37deg) scaleY(0.3);
+    }
 }
-@keyframes logoCircle {
-  0% {
-    left: -20px; 
-  }
-  50% {
-    left: 40px; 
-  }
-  100% {
-    left: 0;
-  }
+
+@keyframes ideasCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
 }
-@keyframes headerCircleSmall {
-  0% {
-    transform: translateY(-41vw);
-  }
-  100% {
-    transform: translateY(0);
-  }
+@keyframes ideaLine {
+    0% {
+        transform: translate(3vw, 3vh) rotate(46deg) scaleY(0.3);
+    }
+    50% {
+        transform: translate(-5vw, -1vh) rotate(46deg) scaleY(0.3);
+    }
+    100% {
+        transform: translate(3vw, 3vh) rotate(46deg) scaleY(0.3);
+    }
 }
-@keyframes headerLine1 {
-  0% {
-    top: 0.5vw;
-    left: 3.2vw;
-  }
-  100% {
-    top: -5.5vw;
-    left: -3.2vw;
-  }
+
+@keyframes ttableCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
 }
-@keyframes headerLine2 {
-  0% {
-    top: -7vh;
-    left: -9.9vw;
-  }
-  100% {
-    top: -4vh;
-    left: -6.9vw;
-  }
+@keyframes ttableSlashes {
+    0% {
+        transform: translateX(0) scaleX(1.4);
+    }
+    50% {
+        transform: translateX(5vw) scaleX(1.4);
+    }
+    100% {
+        transform: translateX(0) scaleX(1.4);
+    }
+}
+
+@keyframes partnersScopes {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(6vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes partnersLine {
+    0% {
+        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
+    }
+    50% {
+        transform: translateX(-3vw) rotate(-60deg) scaleY(0.3);
+    }
+    100% {
+        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
+    }
+}
+
+@keyframes ttableCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
+}
+@keyframes regLineSmall {
+    0% {
+        transform: translateX(-3vw) rotate(-48deg);
+    }
+    50% {
+        transform: translateX(3vw) rotate(-48deg);
+    }
+    100% {
+        transform: translateX(-3vw) rotate(-48deg);
+    }
 }
