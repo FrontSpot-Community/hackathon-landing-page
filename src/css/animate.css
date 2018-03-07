@@ -1,0 +1,102 @@
+@keyframes circleRotate {
+    0% {
+        transform: rotate(0deg) scale(3.8);
+    }
+    100% {
+        transform: rotate(360deg) scale(3.8);
+    }
+}
+@keyframes headerLine {
+    0% {
+        transform: translate(-5vw, -3vh) rotate(-37deg) scaleY(0.3);
+    }
+    50% {
+        transform: translate(3vw, 1vh) rotate(-37deg) scaleY(0.3);
+    }
+    100% {
+        transform: translate(-5vw, -3vh) rotate(-37deg) scaleY(0.3);
+    }
+}
+
+@keyframes ideasCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
+}
+@keyframes ideaLine {
+    0% {
+        transform: translate(3vw, 3vh) rotate(46deg) scaleY(0.3);
+    }
+    50% {
+        transform: translate(-5vw, -1vh) rotate(46deg) scaleY(0.3);
+    }
+    100% {
+        transform: translate(3vw, 3vh) rotate(46deg) scaleY(0.3);
+    }
+}
+
+@keyframes ttableCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
+}
+@keyframes ttableSlashes {
+    0% {
+        transform: translateX(0) scaleX(1.4);
+    }
+    50% {
+        transform: translateX(5vw) scaleX(1.4);
+    }
+    100% {
+        transform: translateX(0) scaleX(1.4);
+    }
+}
+
+@keyframes partnersScopes {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(6vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes partnersLine {
+    0% {
+        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
+    }
+    50% {
+        transform: translateX(-3vw) rotate(-60deg) scaleY(0.3);
+    }
+    100% {
+        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
+    }
+}
+
+@keyframes ttableCircleDashed {
+    0% {
+        transform: rotate(0deg) scale(4);
+    }
+    100% {
+        transform: rotate(360deg) scale(4);
+    }
+}
+@keyframes regLineSmall {
+    0% {
+        transform: translateX(-3vw) rotate(-48deg);
+    }
+    50% {
+        transform: translateX(3vw) rotate(-48deg);
+    }
+    100% {
+        transform: translateX(-3vw) rotate(-48deg);
+    }
+}
