@@ -69,15 +69,12 @@
         transform: translateX(0);
     }
 }
-@keyframes partnersLine {
+@keyframes partnersCircleDashed {
     0% {
-        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
-    }
-    50% {
-        transform: translateX(-3vw) rotate(-60deg) scaleY(0.3);
+        transform: rotate(0deg) scale(4);
     }
     100% {
-        transform: translateX(3vw) rotate(-60deg) scaleY(0.3);
+        transform: rotate(360deg) scale(4);
     }
 }
 
@@ -89,14 +86,16 @@
         transform: rotate(360deg) scale(4);
     }
 }
-@keyframes regLineSmall {
+
+@keyframes placeholder {
     0% {
-        transform: translateX(-3vw) rotate(-48deg);
-    }
-    50% {
-        transform: translateX(3vw) rotate(-48deg);
+        transform: translateY(300%);
+        opacity: 0;
+        font-size: 10px;
     }
     100% {
-        transform: translateX(-3vw) rotate(-48deg);
+        transform: translateY(0);
+        opacity: 1;
+        font-size: 16px;
     }
 }

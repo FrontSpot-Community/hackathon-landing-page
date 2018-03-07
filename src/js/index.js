@@ -33,10 +33,22 @@ function showError(type) {
     }
 }
 
+function removeError(item) {
+    item.parentElement.classList.remove('error');
+}
+function showHidePlaceholder(item) {
+    item.parentNode.querySelector('.placeholder').style.display = item.value ? 'block' : 'none';
+}
+
 document.querySelectorAll('input').forEach((item) => {
-    item.addEventListener('input', () => {
-        item.parentElement.classList.remove('error')
-    })
+    item.addEventListener('input', function () {
+        removeError(item);
+        showHidePlaceholder(item);
+    });
+    item.addEventListener('change', function () {
+        removeError(item);
+        showHidePlaceholder(item);
+    });
 });
 
 registerButton.addEventListener('click', function (e) {
