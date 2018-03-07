@@ -3,7 +3,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = () => {
     return {
         entry: {
-            main: ['./src/index.js', './src/styles.css', './src/animate.css']
+            main: ['./src/js/index.js', './src/css/styles.css', './src/css/animate.css']
         },
         output: {
             path: __dirname + '/dist',
